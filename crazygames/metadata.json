@@ -1,0 +1,54 @@
+{
+  "title": "Pixel Battle",
+  "slug": "pixel-battle",
+  "version": "1.0.0",
+  "developer": "Pixel Battle Studio",
+  "contact": "",
+  "category": "Fighting",
+  "secondaryCategories": ["Action", "Arcade"],
+  "tags": ["2-player", "pixel art", "retro", "martial arts", "single player", "versus"],
+  "orientation": "landscape",
+  "players": "1-2",
+  "contentRating": "Teen",
+  "contentNotes": "Stylized pixel-art violence, blood effects, finishing moves. No realistic gore, no strong language.",
+  "shortDescription": "A gritty 8-bit martial-arts fighting game. Fight the CPU, survive the gauntlet, or train.",
+  "description": "Pixel Battle is a retro 8-bit fighting game built around grounded, realistic martial-arts combat in a gritty arcade style. Pick from a roster of specialized fighters, each with their own style, stats, and unique special moves. Battle the CPU across difficulty tiers, climb a survival gauntlet of hidden opponents, or hone your skills in a free training mode with hitbox visualization. Features hand-drawn pixel-art arenas with animated crowds and ambient wildlife, a regenerating stamina system, combo counters, execute finishers, and synthesized retro sound effects.",
+  "controls": {
+    "move": "Arrow Keys / A-D",
+    "jump": "Space / W",
+    "block": "Hold Back / S",
+    "crouch": "S",
+    "attack": "J",
+    "skill1": "K",
+    "skill2": "L",
+    "skill3": "U",
+    "dash": "Shift",
+    "pause": "P / Esc",
+    "note": "All controls are rebindable in Settings."
+  },
+  "launchTier": "Basic",
+  "externalServices": [
+    {
+      "name": "Base44 backend (optional)",
+      "purpose": "Leaderboard, ranked ELO, and online multiplayer only. Local single-player and training work fully offline with no account.",
+      "urls": ["https://pixelbattle-1.base44.app"],
+      "usedBy": "Logged-in ranked/multiplayer flows; arcade (CrazyGames) players never trigger login."
+    }
+  ],
+  "build": {
+    "install": "npm install",
+    "build": "npm run build",
+    "outputDirectory": "dist",
+    "entryPoint": "dist/index.html"
+  },
+  "submissionChecklist": [
+    "Build produces dist/index.html at the zip root",
+    "Game loads at root URL with no login required (Arcade page)",
+    "Mobile + desktop layouts verified",
+    "Cover image (512x384) uploaded",
+    "At least 2 screenshots uploaded",
+    "Gameplay video (MP4, <100MB) uploaded",
+    "Controls filled in portal",
+    "Content rating declared (Teen)"
+  ]
+}
