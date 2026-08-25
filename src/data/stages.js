@@ -16,7 +16,7 @@ export const STAGES = [
   { id: "factory", name: "Abandoned Factory", weather: "dust", sky: ["#2a2a3a", "#1a1a24"], ground: "#2a2a32", groundLine: "#3a3a42", building: "#3a3a44", buildingShade: "#1a1a24", window: "#a89060", accent: "#5a5a3a" },
   { id: "bridge", name: "Neon Bridge", weather: "rain", sky: ["#0a0a1a", "#1a1030"], ground: "#2a2a3a", groundLine: "#3a3a4a", building: "#1a1a2a", buildingShade: "#0a0a1a", window: "#e8408a", accent: "#3a3a5a" },
   { id: "market", name: "Night Market", weather: "none", sky: ["#1a0a1a", "#2a1830"], ground: "#3a2a2a", groundLine: "#4a3a3a", building: "#3a2a1a", buildingShade: "#241810", window: "#f0a040", accent: "#8a4a2a" },
-  { id: "cemetery", name: "Foggy Graveyard", weather: "fog",!sky: ["#2a2a30", "#3a3a40"], ground: "#2a2a22", groundLine: "#3a3a32", building: "#5a5a5a", buildingShade: "#2a2a2a", window: "#a8a890", accent: "#4a4a3a" },
+  { id: "cemetery", name: "Foggy Graveyard", weather: "fog", sky: ["#2a2a30", "#3a3a40"], ground: "#2a2a22", groundLine: "#3a3a32", building: "#5a5a5a", buildingShade: "#2a2a2a", window: "#a8a890", accent: "#4a4a3a" },
   { id: "volcano", name: "Volcano's Edge", weather: "dust", sky: ["#3a0a0a", "#7a2a14"], ground: "#2a1a18", groundLine: "#3a2a24", building: "#4a2a1a", buildingShade: "#2a1408", window: "#f06020", accent: "#8a3010" },
   { id: "colosseum", name: "Fallen Colosseum", weather: "wind", sky: ["#c8a878", "#e8d0a0"], ground: "#c8a868", groundLine: "#a88858", building: "#9a8870", buildingShade: "#6a5840", window: "#e8d8a0", accent: "#8a6a4a" },
   { id: "tower", name: "Clock Tower", weather: "none", sky: ["#1a1a2a", "#2a2a3a"], ground: "#3a3a3a", groundLine: "#4a4a4a", building: "#4a4a4a", buildingShade: "#2a2a2a", window: "#f0d870", accent: "#6a5a4a" },
