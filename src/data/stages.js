@@ -1,0 +1,30 @@
+export const STAGES = [
+  { id: "alley", name: "Rainy Back Alley", weather: "rain", sky: ["#1a1f2e", "#2a2530"], ground: "#2a2520", groundLine: "#3a3530", building: "#3a3328", buildingShade: "#241f18", window: "#d8a850", accent: "#4a4540" },
+  { id: "rooftop", name: "Rooftop at Sunset", weather: "clouds", sky: ["#d87a3a", "#f0b070"], ground: "#5a4a3a", groundLine: "#6a5a4a", building: "#3a2a3a", buildingShade: "#241828", window: "#f0d090", accent: "#8a6a5a" },
+  { id: "dojo", name: "Japanese Dojo", weather: "wind", sky: ["#3a4a5a", "#5a6a7a"], ground: "#6a4a2a", groundLine: "#7a5a3a", building: "#4a2a1a", buildingShade: "#2a1a0a", window: "#f0e0c0", accent: "#a8442a" },
+  { id: "subway", name: "Underground Subway", weather: "none", sky: ["#2a2a3a", "#1a1a2a"], ground: "#3a3a4a", groundLine: "#4a4a5a", building: "#4a4a5a", buildingShade: "#2a2a3a", window: "#f0e8a0", accent: "#5a5a6a" },
+  { id: "warehouse", name: "Old Warehouse", weather: "dust", sky: ["#3a3a2a", "#2a2a1a"], ground: "#4a3a2a", groundLine: "#5a4a3a", building: "#3a3a3a", buildingShade: "#1a1a1a", window: "#a89060", accent: "#6a5a4a" },
+  { id: "temple", name: "Temple Ruins", weather: "wind", sky: ["#6a7a8a", "#8a9aaa"], ground: "#7a6a4a", groundLine: "#8a7a5a", building: "#8a7a5a", buildingShade: "#5a4a2a", window: "#c8b890", accent: "#a8442a" },
+  { id: "street", name: "Small Town Street", weather: "none", sky: ["#1a1a2a", "#2a2a3a"], ground: "#3a3a3a", groundLine: "#4a4a4a", building: "#3a2a3a", buildingShade: "#241828", window: "#f0d870", accent: "#5a4a5a" },
+  { id: "harbor", name: "Industrial Harbor", weather: "fog", sky: ["#4a5a6a", "#6a7a8a"], ground: "#3a4a4a", groundLine: "#4a5a5a", building: "#4a5a5a", buildingShade: "#2a3a3a", window: "#a89060", accent: "#6a7a6a" },
+  { id: "station", name: "Deserted Train Station", weather: "dust", sky: ["#5a4a3a", "#7a6a4a"], ground: "#4a3a2a", groundLine: "#5a4a3a", building: "#3a2a1a", buildingShade: "#241a0a", window: "#d8b070", accent: "#6a5a4a" },
+  { id: "forest", name: "Forest Shrine", weather: "wind", sky: ["#2a3a2a", "#3a4a3a"], ground: "#3a3a2a", groundLine: "#4a4a3a", building: "#4a3a2a", buildingShade: "#2a2418", window: "#f0d870", accent: "#8a6a3a" },
+  { id: "canyon", name: "Desert Canyon", weather: "dust", sky: ["#d8a050", "#f0c878"], ground: "#c88a4a", groundLine: "#a87038", building: "#a8703a", buildingShade: "#7a5028", window: "#f0d890", accent: "#8a5a2a" },
+  { id: "mountain", name: "Mountain Pass", weather: "wind", sky: ["#4a6a8a", "#8aaad8"], ground: "#d8dce4", groundLine: "#a8acb4", building: "#6a7a8a", buildingShade: "#4a5a6a", window: "#e0e8f0", accent: "#3a4a5a" },
+  { id: "sewer", name: "Sewer Tunnels", weather: "none", sky: ["#1a2a1a", "#0a1a0a"], ground: "#2a3a2a", groundLine: "#3a4a3a", building: "#3a4a3a", buildingShade: "#1a2a1a", window: "#5ac860", accent: "#6a8a4a" },
+  { id: "beach", name: "Beach Boardwalk", weather: "clouds", sky: ["#f0a060", "#f0d8a0"], ground: "#e8c890", groundLine: "#d8a868", building: "#5a8a8a", buildingShade: "#3a6a6a", window: "#f0e8c0", accent: "#8a6a4a" },
+  { id: "factory", name: "Abandoned Factory", weather: "dust", sky: ["#2a2a3a", "#1a1a24"], ground: "#2a2a32", groundLine: "#3a3a42", building: "#3a3a44", buildingShade: "#1a1a24", window: "#a89060", accent: "#5a5a3a" },
+  { id: "bridge", name: "Neon Bridge", weather: "rain", sky: ["#0a0a1a", "#1a1030"], ground: "#2a2a3a", groundLine: "#3a3a4a", building: "#1a1a2a", buildingShade: "#0a0a1a", window: "#e8408a", accent: "#3a3a5a" },
+  { id: "market", name: "Night Market", weather: "none", sky: ["#1a0a1a", "#2a1830"], ground: "#3a2a2a", groundLine: "#4a3a3a", building: "#3a2a1a", buildingShade: "#241810", window: "#f0a040", accent: "#8a4a2a" },
+  { id: "cemetery", name: "Foggy Graveyard", weather: "fog",!sky: ["#2a2a30", "#3a3a40"], ground: "#2a2a22", groundLine: "#3a3a32", building: "#5a5a5a", buildingShade: "#2a2a2a", window: "#a8a890", accent: "#4a4a3a" },
+  { id: "volcano", name: "Volcano's Edge", weather: "dust", sky: ["#3a0a0a", "#7a2a14"], ground: "#2a1a18", groundLine: "#3a2a24", building: "#4a2a1a", buildingShade: "#2a1408", window: "#f06020", accent: "#8a3010" },
+  { id: "colosseum", name: "Fallen Colosseum", weather: "wind", sky: ["#c8a878", "#e8d0a0"], ground: "#c8a868", groundLine: "#a88858", building: "#9a8870", buildingShade: "#6a5840", window: "#e8d8a0", accent: "#8a6a4a" },
+  { id: "tower", name: "Clock Tower", weather: "none", sky: ["#1a1a2a", "#2a2a3a"], ground: "#3a3a3a", groundLine: "#4a4a4a", building: "#4a4a4a", buildingShade: "#2a2a2a", window: "#f0d870", accent: "#6a5a4a" },
+  { id: "swamp", name: "Murky Swamp", weather: "fog", sky: ["#2a3a2a", "#3a4a3a"], ground: "#3a3a2a", groundLine: "#2a3020", building: "#3a4a2a", buildingShade: "#1a2a18", window: "#8aa060", accent: "#5a6a3a" },
+  { id: "festival", name: "Lantern Festival", weather: "none", sky: ["#1a0a2a", "#3a1a4a"], ground: "#3a2a3a", groundLine: "#4a3a4a", building: "#4a2a3a", buildingShade: "#2a1424", window: "#f0a040", accent: "#e8408a" },
+  { id: "docks", name: "Foggy Docks", weather: "fog", sky: ["#3a4a4a", "#5a6a6a"], ground: "#4a3a2a", groundLine: "#5a4a3a", building: "#3a2a1a", buildingShade: "#241808", window: "#f0c860", accent: "#6a8a8a" },
+  { id: "prison", name: "Prison Yard", weather: "wind", sky: ["#4a5a5a", "#6a7a7a"], ground: "#5a5a5a", groundLine: "#6a6a6a", building: "#4a4a4a", buildingShade: "#2a2a2a", window: "#a8c8e0", accent: "#8a8a6a" },
+  { id: "shrine", name: "Mountain Shrine", weather: "wind", sky: ["#3a4a5a", "#6a7a8a"], ground: "#5a4a3a", groundLine: "#6a5a4a", building: "#4a2a2a", buildingShade: "#2a1414", window: "#f0e0a0", accent: "#c8542a" }
+];
+
+export const getStage = (id) => STAGES.find((s) => s.id === id) || STAGES[0];
