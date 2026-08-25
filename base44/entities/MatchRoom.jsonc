@@ -1,0 +1,20 @@
+{
+  "name": "MatchRoom",
+  "type": "object",
+  "properties": {
+    "code": { "type": "string" },
+    "mode": { "type": "string", "enum": ["public", "custom"] },
+    "host_id": { "type": "string" },
+    "guest_id": { "type": "string" },
+    "status": { "type": "string", "enum": ["waiting", "playing", "ended"], "default": "waiting" },
+    "stage_id": { "type": "string", "default": "alley" },
+    "host_char": { "type": "string", "default": "ryo" },
+    "guest_char": { "type": "string", "default": "brutus" },
+    "difficulty": { "type": "string", "default": "normal" },
+    "host_elo": { "type": "number", "default": 1000 },
+    "snapshot": { "type": "string" },
+    "guest_input": { "type": "string" },
+    "winner": { "type": "string" }
+  },
+  "required": ["code", "mode", "host_id"]
+}

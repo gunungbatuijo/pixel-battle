@@ -1,0 +1,14 @@
+{
+  "name": "PlayerProfile",
+  "type": "object",
+  "properties": {
+    "user_id": { "type": "string" },
+    "name": { "type": "string" },
+    "elo": { "type": "number", "default": 1000 },
+    "wins": { "type": "number", "default": 0 },
+    "losses": { "type": "number", "default": 0 },
+    "streak": { "type": "number", "default": 0 },
+    "best_streak": { "type": "number", "default": 0 }
+  },
+  "required": ["user_id", "name"]
+}
